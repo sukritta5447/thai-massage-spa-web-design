@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+}
+
+.container {
+  width: 1300px;
+  margin: auto;
+  padding: 0 25px;
+}
+
+#header {
+  height: 100vh;
+  background-image: url(./images/main.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #381f74;
+}
